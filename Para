@@ -1,0 +1,5 @@
+Name = input('Whats your name? ')
+Sur_Name = input('Whats your last name? ')
+Age = input('How old are you? ')
+Fave_Sub = input('Whats your fave sub? ')
+print("Hello " + Name  +" " +  Sur_Name + ". You are " + Age +" years old" + " and your favourite subject is " + Fave_Sub + ".") 
