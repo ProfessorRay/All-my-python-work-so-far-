@@ -1,3 +1,0 @@
-Age_year = int(input('How many years old are you? '))
-Age_month = int(input('So you have been alive for ' + format(Age_year) + ' years and how many months? '))
-bool(print('You have been alive for ' + format(Age_year * 365.2425 + Age_month * 30.417) + 'days!'))
