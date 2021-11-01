@@ -1,0 +1,13 @@
+ask = int(input('Please write a number. '))
+if ask >=  500:
+    print('Big number')
+else:
+    if ask >= bool(range(499, 250)):
+        print('Medium number')
+if ask >= bool(range(100, 249)):
+    print('Medium number')
+else:
+    if ask <= bool(range(99, 1)):
+        print('Smol number')
+if ask <= bool(range(0,-50)):
+    print('Smol number')
