@@ -1,0 +1,14 @@
+Number = int(input('Input a number. '))
+if Number >= 500:
+    print("Big Number")
+elif Number in range(250, 500): # 500, not 499 since range excludes the upper end
+    print('Med number')
+elif Number in range(0, 250):
+    print('Smol Number')#positve
+
+elif Number in range(-250,0):#negative
+    print('Smol Negative Number')
+elif Number in range(-499,-250):
+    print('Med Negative Number')
+elif Number <= -500:
+    print('Big Negative Number')
