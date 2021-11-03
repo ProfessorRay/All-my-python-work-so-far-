@@ -1,0 +1,3 @@
+height = int(input('Height of square: '))
+widths = int(input('Width of square: '))
+print(height * widths)
