@@ -1,0 +1,11 @@
+cats = (input('Do cats bark? '))
+if cats == ("No"):
+    print('Correct')
+else:
+    if cats == ("Yes"):
+        print("Wrong")
+if cats == ("no"):
+    print('Correct')
+else:
+    if cats == ("yes"):
+        print("Wrong")
