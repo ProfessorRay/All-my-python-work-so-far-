@@ -1,0 +1,8 @@
+one = input ('Please enter number 1: ')
+two = input ('Please enter number 2: ')
+three = input ('Please enter number 3: ')
+if one == two:
+    if two == three:
+        print('The numbers match up! ')
+else:
+    print('The numbers do not match up!')
