@@ -11,3 +11,7 @@ elif test_grade in range(40,50):
     print('You got a C')
 elif test_grade in range(0,40):
     print('You got an F')
+elif test_grade > 70:
+    print('The test is out of 70 to 0.')
+elif test_grade < 0:
+    print('The test is out of 70 to 0.')
